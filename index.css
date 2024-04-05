@@ -8,6 +8,15 @@
     src: url("./fonts/RastefaniItalic.ttf");
     font-family:RastefaniItalic;
 }
+@font-face 
+{
+    src: url("./fonts/AngillaTattooPERSONALUSEONLY.ttf");
+    font-family:AngillaTattooPERSONALUSEONLY;
+}
+body
+{
+    background-color:gray;
+}
 .navbar-brand
 {
     font-family:Barqish;
@@ -25,7 +34,56 @@
 }
 p
 {
-    font-size: 3rem;
+    font-size: 3.3rem;
     margin-bottom:250px;
     color:white;
+    font-family:Barqish;
 }
+h5
+{
+     font-size:2.5rem ;
+     font-family:Barqish;
+     /*color:white;*/
+     color:#0d21a1;
+
+}
+span
+{
+    color:red;
+    font-family:Barqish;
+}
+h2
+{
+    font-family:AngillaTattooPERSONALUSEONLY;
+    margin-top:30px;
+    text-align: center;
+}
+h3
+{
+    text-align: center;
+}
+.common
+{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+}
+.card
+{
+    background-color: gray;
+    border-radius:20px;
+    margin:50px;
+}
+.card-text
+{
+    font-family:Barqish;
+    font-size: 1.5rem;
+}
+.card-body
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
