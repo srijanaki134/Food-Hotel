@@ -1,0 +1,48 @@
+@font-face 
+{
+    src: url("./fonts/Barqish.ttf");
+    font-family:Barqish;
+}
+@font-face 
+{
+    src: url("./fonts/MistysRelricaDEMOVERSION.ttf");
+    font-family:MistysRelricaDEMOVERSION;
+}
+body
+{
+background-color: gray;
+}
+.carousel-item
+{
+width:100%;
+height:500px;
+}
+.carousel-caption>h5
+{
+ margin-bottom:200px;
+ margin-right:600px;
+ font-size: 3rem;
+ font-family:Barqish;
+color:#cdb4db;
+}
+h3
+{
+    font-family:MistysRelricaDEMOVERSION;
+    font-size: 3rem;
+    text-align: center;
+    color:#03045e;
+}
+.commonv
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.card
+{
+    margin:20px;
+}
+.card-text
+{
+    text-align:center ;
+    font-family:Barqish;
+}
