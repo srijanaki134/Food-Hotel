@@ -1,0 +1,48 @@
+@font-face 
+{
+    src: url("./fonts/Barqish.ttf");
+    font-family:Barqish;
+}
+.carousel-item
+{
+    height: 600px;
+}
+.header>h2
+{
+    font-family:Barqish;
+    text-align: center;
+    font-size: 5rem;
+}
+.commond
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:50px;
+    margin:30px;
+}
+.card-text
+{
+    font-family:Barqish;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+
+@media all and (max-width:400px)
+{
+.commond
+{
+        display: grid;
+        grid-template-columns:1fr;
+       
+}
+.header>h2
+{
+    margin-top:-350px;
+}
+.card
+{
+      margin:30px;
+}
+}
