@@ -1,0 +1,53 @@
+@font-face 
+{
+    src: url("./fonts/Barqish.ttf");
+    font-family:Barqish;
+}
+
+body{
+    background-color: gray;
+}
+.card-img
+{
+    height:500px;
+}
+h5
+{
+    text-align: center;
+    font-size: 3rem;
+    color:seagreen;
+    margin-top:250px;
+}
+p
+{
+    font-size: 3rem;
+    margin-top: 100px;
+}
+.commona
+{
+    text-align: center;
+}
+.card-body>h2
+{
+    font-family:Barqish;
+    font-size: 4rem;
+    color:white;
+    text-align: center;
+}
+.card
+{
+    background-color: red;
+}
+.card-body>p
+{
+    color:white;
+    font-family:Barqish;
+}
+h3
+{
+    font-family:Barqish;
+    font-size: 4rem;
+    text-align: center;
+}
+
+
