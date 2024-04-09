@@ -7,9 +7,14 @@
 body{
     background-color: gray;
 }
-.card-img
+.commona
 {
-    height:500px;
+    text-align: center;
+}
+.card-1
+{
+    font-size: 3rem;
+    margin-top: 100px;
 }
 h5
 {
@@ -18,14 +23,9 @@ h5
     color:seagreen;
     margin-top:250px;
 }
-p
+.card-img
 {
-    font-size: 3rem;
-    margin-top: 100px;
-}
-.commona
-{
-    text-align: center;
+    height:500px;
 }
 .card-body>h2
 {
@@ -34,20 +34,20 @@ p
     color:white;
     text-align: center;
 }
-.card
+.card1
 {
     background-color: red;
 }
-.card-body>p
+.img
 {
     color:white;
     font-family:Barqish;
+    font-size: 2rem;
 }
 h3
 {
-    font-family:Barqish;
     font-size: 4rem;
     text-align: center;
-}
+}*/
 
 
