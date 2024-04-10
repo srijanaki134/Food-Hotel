@@ -27,27 +27,41 @@ h5
 {
     height:500px;
 }
-.card-body>h2
-{
-    font-family:Barqish;
-    font-size: 4rem;
-    color:white;
-    text-align: center;
-}
-.card1
-{
-    background-color: red;
-}
-.img
-{
-    color:white;
-    font-family:Barqish;
-    font-size: 2rem;
-}
 h3
 {
     font-size: 4rem;
     text-align: center;
-}*/
+}
+.common-class
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:30px;
+}
+.carousel-item
+{
+   /* height:900px;
+    width:800px;*/
+}
+.card1
+{
+    padding:30px;
+}
 
 
+
+
+
+
+
+@media all and (max-width:400px)
+{
+    .common-class
+    {
+        display: grid;
+    grid-template-columns: 1fr;
+    padding:50px;
+    }
+
+
+}    
