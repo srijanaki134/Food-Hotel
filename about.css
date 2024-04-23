@@ -3,7 +3,27 @@
     src: url("./fonts/Barqish.ttf");
     font-family:Barqish;
 }
-
+@font-face 
+{
+    src: url("./fonts/Barqish.ttf");
+    font-family:Barqish;
+}
+@font-face 
+{
+    src: url("./fonts/RastefaniItalic.ttf");
+    font-family:RastefaniItalic;
+}
+.navbar-brand
+{
+    font-family:Barqish;
+    font-size:2rem;
+}
+.nav-item
+{
+    padding:15px 15px;
+    font-size: 1.4rem;
+    font-family:RastefaniItalic;
+}
 body{
     background-color: gray;
 }

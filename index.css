@@ -84,5 +84,9 @@ h3
     justify-content: center;
 }
 
-
+.dropdown-menu
+{
+    border-radius: 20px;
+    background-color: grey;
+}
 
