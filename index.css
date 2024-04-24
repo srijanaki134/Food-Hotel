@@ -89,6 +89,19 @@ h3
     border-radius: 20px;
     background-color: grey;
 }
+.common1
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.common-id
+{
+    display: flex;
+}
+.img
+{
+    margin: 30px;
+}
 ul li a
 {
     color:#f4acb7;
@@ -101,4 +114,30 @@ ul li a
 .footer-logo
 {
     font-family:Barqish;
+}
+
+
+
+
+@media all and (max-width:400px)
+{
+    .common
+    {
+        display: grid;
+        grid-template-columns:1fr;
+        margin: 300px;
+        margin-top:50px;
+    }   
+}
+h2
+{
+    font-size: 4rem;
+}
+h3
+{
+    font-size: 4rem;
+}
+.card-text
+{
+    font-size: 2rem;
 }
