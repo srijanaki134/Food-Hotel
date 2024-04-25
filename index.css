@@ -89,7 +89,24 @@ h3
     border-radius: 20px;
     background-color: grey;
 }
-.common1
+.container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.card-text1
+{
+    margin-top:40px;
+}
+.header-main
+{
+    font-family:Barqish;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+.common-body
 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -125,19 +142,39 @@ ul li a
     {
         display: grid;
         grid-template-columns:1fr;
-        margin: 300px;
+        margin: 50px;
         margin-top:50px;
     }   
-}
+
 h2
 {
-    font-size: 4rem;
+    margin-top:-250px;
+    font-size: 2rem;
 }
 h3
 {
-    font-size: 4rem;
+    font-size: 2rem;
 }
 .card-text
 {
     font-size: 2rem;
+}
+.common-body
+{
+    display: grid;
+    grid-template-columns: 1fr;
+   margin:10px;
+}
+.header-main
+{
+    margin-top:-100px;
+    font-size: 5rem;
+}
+.container
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin:20px;
+    font-size: 2rem;
+}
 }

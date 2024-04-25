@@ -38,7 +38,7 @@ body
 {
     text-align:center;
 }
-h4
+.header5
 {
     text-align: center;
 }
@@ -69,3 +69,22 @@ h4
     margin-left:50px;
 }
 
+
+
+
+
+
+
+@media all and (max-width:400px)
+{
+    .commonc 
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .header5
+    {
+        margin-top:50px;
+        font-size: 2rem;
+    }
+}
