@@ -1,0 +1,66 @@
+@font-face 
+{
+    src: url("./fonts/Barqish.ttf");
+    font-family:Barqish;
+}
+body
+{
+    background-color: grey;
+}
+/*.d-block
+{
+    height: 600px;
+}*/
+.container-body
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px;
+}
+.card-text5
+{
+    /*margin-left: 70px;*/
+    font-family:Barqish;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:-5px;
+}
+ul li a
+{
+    color:#f4acb7;
+}
+.footer
+{
+    font-family:Barqish;
+    color:#ffddd2;
+}
+.footer-logo
+{
+    font-family:Barqish;
+}
+.h1
+{
+    font-family:Barqish;
+    color:aqua;
+}
+@media all and (max-width:400px)
+{
+    .container-body
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin:50px;
+}
+}
+
+@media all and (min-width:700px) and (max-width:1000px)
+{
+    .container-body
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin:50px;
+}
+}

@@ -68,6 +68,20 @@ body
 {
     margin-left:50px;
 }
+ul li a
+{
+    color:#f4acb7;
+}
+.footer
+{
+    font-family:Barqish;
+    color:#ffddd2;
+}
+.footer-logo
+{
+    font-family:Barqish;
+}
+
 
 
 
@@ -86,5 +100,15 @@ body
     {
         margin-top:50px;
         font-size: 2rem;
+    }
+}
+
+
+@media all and (min-width:750px) and (max-width:1000px)
+{
+    .commonc 
+    {
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }

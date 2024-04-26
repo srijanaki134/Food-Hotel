@@ -54,6 +54,19 @@ color:#cdb4db;
     justify-content: center;
     margin-top:-40px;
 }
+ul li a
+{
+    color:#f4acb7;
+}
+.footer
+{
+    font-family:Barqish;
+    color:#ffddd2;
+}
+.footer-logo
+{
+    font-family:Barqish;
+}
 
 @media all and (max-width:400px)
 {

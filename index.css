@@ -31,6 +31,7 @@ body
 .carousel-item
 {
     height:650px;
+    object-fit: cover;
 }
 p
 {
@@ -38,6 +39,7 @@ p
     margin-bottom:250px;
     color:white;
     font-family:Barqish;
+    z-index: -1;
 }
 h5
 {
@@ -177,4 +179,13 @@ h3
     margin:20px;
     font-size: 2rem;
 }
+
+}
+@media all and (min-width:700px) and (max-width:1000px)
+{
+    .common-body
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }

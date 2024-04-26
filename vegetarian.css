@@ -46,6 +46,21 @@ color:#cdb4db;
     text-align:center ;
     font-family:Barqish;
 }
+ul li a
+{
+    color:#f4acb7;
+}
+.footer
+{
+    font-family:Barqish;
+    color:#ffddd2;
+}
+.footer-logo
+{
+    font-family:Barqish;
+}
+
+
 @media all and (max-width:400px)
 {
 .commonv

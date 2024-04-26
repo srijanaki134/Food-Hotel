@@ -18,7 +18,21 @@
     padding:15px 15px;
     font-size: 1.4rem;
     font-family:RastefaniItalic;
-}body
+}
+body
 {
     background:linear-gradient( #11998e, #38ef7d);
+}
+ul li a
+{
+    color:#f4acb7;
+}
+.footer
+{
+    font-family:Barqish;
+    color:#ffddd2;
+}
+.footer-logo
+{
+    font-family:Barqish;
 }

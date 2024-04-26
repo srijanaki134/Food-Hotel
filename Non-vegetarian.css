@@ -31,6 +31,19 @@ h1
 {
     height:600px;
 }
+ul li a
+{
+    color:#f4acb7;
+}
+.footer
+{
+    font-family:Barqish;
+    color:#ffddd2;
+}
+.footer-logo
+{
+    font-family:Barqish;
+}
 
 
 
